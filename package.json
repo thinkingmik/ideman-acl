@@ -1,0 +1,40 @@
+{
+  "name": "ideman-acl",
+  "version": "1.0.0",
+  "description": "Node module for users and roles policies management",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "node ./test/app.js",
+    "start": "node ./lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thinkingmik/ideman-acl.git"
+  },
+  "keywords": [
+    "identity",
+    "acl",
+    "users",
+    "roles",
+    "policy",
+    "permission",
+	"resource",
+    "api"
+  ],
+  "author": "Michele Andreoli <michi.andreoli@gmail.com> (https://github.com/thinkingmik)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thinkingmik/ideman-acl/issues"
+  },
+  "homepage": "https://github.com/thinkingmik/ideman-acl#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "bluebird": "^3.3.5",
+    "crypto": "0.0.3",
+    "fs": "0.0.2",
+    "jsonwebtoken": "^6.2.0",
+    "moment": "^2.13.0",
+    "path": "^0.12.7",
+    "ua-parser-js": "^0.7.10"
+  }
+}
