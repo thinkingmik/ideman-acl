@@ -1,6 +1,6 @@
 {
   "name": "ideman-acl",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Node module for users and roles policies management",
   "main": "./lib/idemanAcl.js",
   "scripts": {
