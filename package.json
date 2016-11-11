@@ -28,6 +28,7 @@
   "homepage": "https://github.com/thinkingmik/ideman-acl#readme",
   "dependencies": {
     "bluebird": "^3.4.6",
+    "lodash": "^4.16.6",
     "moment": "^2.13.0"
   },
   "devDependencies": {

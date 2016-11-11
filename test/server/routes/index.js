@@ -13,7 +13,7 @@ router.route('/oauth2/token')
 router.route('/oauth2/logout')
   .post(ideman.isAuthenticated, ideman.logout);
 
-router.route('/resource').get(ideman.isAuthenticated, idemanAcl.isAllowed('users'), function(req, res) {
+router.route('/resource').get(ideman.isAuthenticated, idemanAcl.isAllowed('test'), function(req, res) {
   res.json(true);
 });
 
